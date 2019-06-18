@@ -1,0 +1,9 @@
+#post_form > div.form-group.form-body {
+    position: relative;
+}
+
+#convert-to-slack-format {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
