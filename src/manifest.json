@@ -10,7 +10,7 @@
   "author": "ryz310@gmail.com",
   "content_scripts": [
     {
-      "matches": ["https://*.esa.io/posts/*/edit"],
+      "matches": ["https://*.esa.io/posts/*"],
       "css": [
         "css/migratory_bird.css"
       ],

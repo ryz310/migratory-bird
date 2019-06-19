@@ -60,5 +60,7 @@ const eventListener = () => {
   slackIconSvg.addEventListener('click', eventListener);
 
   const esaFormBody = document.querySelector('#post_form > div.form-group.form-body');
-  esaFormBody.appendChild(slackIconSvg);
+  if (esaFormBody !== null) {
+    esaFormBody.appendChild(slackIconSvg);
+  }
 })();
