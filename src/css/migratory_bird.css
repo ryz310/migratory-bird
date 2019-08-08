@@ -3,6 +3,7 @@
 }
 
 #convert-to-slack-format {
+    z-index: 10;
     position: absolute;
     right: 16px;
     top: 10px;
