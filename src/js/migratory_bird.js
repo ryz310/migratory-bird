@@ -56,6 +56,7 @@ const processText = (text) => {
   return text
     .replace(/今日/g, '昨日')
     .replace(/明日/g, '今日')
+    .replace(/~~/g, '~')
     .replace(/\[(WIP|RIP)\] /gm, '')
     .replace(/^#+ (.+)/gm, '*$1*')
     .replace(/^.+?\[(.+?)\]\(.+\) by .+/gm, '▼ $1')
